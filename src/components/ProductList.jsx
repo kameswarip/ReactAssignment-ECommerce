@@ -1,4 +1,3 @@
-// src/components/ProductList.jsx
 import React, { useEffect, useState } from 'react';
 import { fetchProducts } from '../utils/api';
 import ProductCard from './ProductCard';

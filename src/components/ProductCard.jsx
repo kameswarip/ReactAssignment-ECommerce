@@ -1,4 +1,3 @@
-// src/components/ProductCard.jsx
 import React from 'react';
 
 const ProductCard = ({ product, onAddToCart }) => {
@@ -8,10 +7,6 @@ const ProductCard = ({ product, onAddToCart }) => {
         src={product.image}
         className="card-img-top img-thumbnail"
         alt={product.title}
-        // style={{
-        //   height: '200px',       // Fixed height for images
-        //   objectFit: 'cover',    // Ensures images cover the area without distortion
-        // }}
       />
       <div className="card-body d-flex flex-column" style={{ height: '200px' }}>
         <h5 className="card-title">{product.title}</h5>
